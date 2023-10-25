@@ -1,0 +1,8 @@
+*.o
+*.zip
+Image*
+vmlinuz
+*.dtb
+*.dts
+.vscode
+mini-rv32ima
