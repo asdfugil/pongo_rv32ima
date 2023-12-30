@@ -20,6 +20,6 @@ $(EXE): $(OBJS)
 	$(CC) $(CFLAGS) $(LDFLAGS) $< -o $(EXE)
 
 clean:
-	rm -f set_rootdev obj/*.o
+	rm -f $(EXE) obj/*.o
 
 .PHONY: all clean
